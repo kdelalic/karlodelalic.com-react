@@ -1,0 +1,87 @@
+.frontscreen {
+	width: 100%;
+	height: 100vh;
+	background: rgba(128,128,128,0.1);
+}
+
+.display {
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+  	position: relative;
+}
+
+.frontscreen h1 {
+	color: #e4e4e4;
+	margin: 0;
+	font-size: 5em;
+	letter-spacing: 0.1em;
+	text-shadow: 1px 1px 10px #3B3B3B;
+}
+
+.frontscreen h2 {
+	font-size: 2em;
+	color: #e4e4e4;
+	margin-top: 0.6em;
+	letter-spacing: 0.1em;
+	text-shadow: 1px 1px 10px #3B3B3B;
+	
+}
+
+.scrollDown {
+	position: absolute;
+	bottom: 3%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	z-index: 999;
+}
+
+.scrollDown a:hover img{
+	-webkit-transform: translateY(10px);
+    transform: translateY(10px);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.scrollDown p {
+	font-size: 1em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	right: 50%;
+}
+
+.scrollDown img {
+	width: 40px;
+	position: relative;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.scrollDown .fa-angle-down {
+	font-size: 4em;
+	color: white;
+}
+
+@media screen and (max-width: 800px) {
+	.frontscreen h1 {
+		font-size: 3em;
+	}
+
+	.frontscreen h2 {
+		font-size: 1em;
+	}
+
+	.scrollDown p {
+		font-size: 0.75em;
+	}
+
+	.scrollDown img {
+		width: 30px;
+	}
+}

@@ -1,0 +1,97 @@
+.whatido {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.fa-code, .fa-globe, .fa-pencil {
+  font-size: 4em;
+  margin-bottom: 0.3em;
+}
+
+.whatido .row {
+  padding: 1em 5em;
+}
+
+.whatido .col {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whatido .col:first-of-type {
+    border-right: 1px solid lightgray;
+}
+
+.whatido p {
+  font-size: 1.25em;
+  max-width: 75%;
+  margin: 0.75em auto;
+  line-height: 1.75em;
+}
+
+.padding {
+  padding: 4em 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .reorder {
+    display: flex!important;
+    flex-direction: column-reverse;
+  }
+
+  .reorder .second {
+    margin-bottom: 100px;
+  }
+
+  .reorder .first {
+    margin-bottom: 25px;
+  }
+
+  .whatido .row {
+    padding: 1em 2em;
+    display: initial;
+  }
+
+  .whatido .dev {
+    padding-top: 0!important;
+  }
+
+  .whatido .col {
+    border-right: none!important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .whatido p {
+    max-width: 90%;
+  }
+
+  .whatido .padding {
+    padding: 2.5em 15px;
+  }
+
+  .whatido .coming {
+    margin: 0!important;
+    margin-top: -10px!important;
+  }
+
+}
+
+@media (min-width: 768px){
+
+  .container {
+      max-width: 768px;
+  }
+
+}

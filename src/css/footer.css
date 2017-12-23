@@ -1,0 +1,66 @@
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: whitesmoke;
+  /*background-color: #ECECEC;*/
+  padding: 3em 0 3em;
+  border-top: 1px solid #d3d3d3;
+}
+
+.footer h3 {
+  color: whitesmoke;
+}
+
+.footer ul {
+	list-style: none;
+  padding-left: 0;
+}
+
+.footer li{
+	display: inline;
+}
+
+.footer .fa-github, .footer .fa-linkedin, .footer .fa-envelope-o {
+	font-size: 3.5em;
+  padding: 1em 2em;
+  color: lightgray;
+}
+
+.footer .fa-github:hover {
+  color: white;
+}
+
+.footer .fa-linkedin:hover {
+  color: #007bb6;
+}
+
+.footer li:hover .fa-envelope-o:before {
+  content: "\f0e0";
+  color: white;
+}
+
+.footer p {
+  color: whitesmoke;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer .container {
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .footer .fa-github, .footer .fa-linkedin, .footer .fa-envelope-o {
+    padding: 0.5em 0.7em;
+  }
+
+  .footer .dash {
+    margin: 2em auto 1em;
+  }
+
+}
