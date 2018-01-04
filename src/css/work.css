@@ -1,10 +1,6 @@
 .work {
 	display: flex;
 	flex-direction: row;
-	position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: 125px;
 }
 
 .work .projects .firstH5 {
@@ -60,15 +56,6 @@
 	width: 35%;
 }
 
-@media (min-width: 768px) {
-  
-}
-@media (min-width: 992px) {
-  
-}
-@media (min-width: 1200px) {
-  
-}
 @media (max-width: 1199px) {
   .work {
     flex-direction: column;
@@ -77,4 +64,17 @@
   .projects, .skills {
   	width: 100%!important;
   }
+  .skills {
+  	max-width: 800px;
+  	margin-top: 40px;
+  }
+
+  .work .projects .project p {
+  	width: auto;
+  }
+}
+@media (max-width: 700px) {
+	.work .projects .project p {
+		margin-left: 10px;
+	}
 }

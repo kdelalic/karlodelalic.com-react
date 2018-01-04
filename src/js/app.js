@@ -13,6 +13,20 @@ import profile from '../img/profile.png'
 
 
 export default class App extends Component {
+
+	constructor(props) {
+        super(props);
+        this.toggleClass= this.toggleClass.bind(this);
+        this.state = {
+            active: false,
+        };
+    }
+
+    toggleClass() {
+        const currentState = this.state.active;
+        this.setState({ active: !currentState });
+    };
+
     render() {
 	    return (
 		    <BrowserRouter>
@@ -31,6 +45,23 @@ export default class App extends Component {
 						      		<li><IconButton  target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic" iconClassName="icon ion-social-github" /></li>
 						      		<li><IconButton  target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/kdelalic" iconClassName="icon ion-social-linkedin" /></li>
 						      	</ul>
+						      	<ul className={this.state.active ? 'mobileBar open': 'mobileBar'} 
+                onClick={this.toggleClass}>
+						      		<li><NavLink exact to="/">HOME</NavLink></li>
+						      		<li><NavLink to="/about">ABOUT</NavLink></li>
+						      		<li><NavLink to="/work">WORK</NavLink></li>
+						      		<li><NavLink to="/contact">CONTACT</NavLink></li>
+						      	</ul>
+						      	<div className={this.state.active ? 'hamburger open': 'hamburger'} 
+                onClick={this.toggleClass}>
+						      		<div className={this.state.active ? 'nav-icon open': 'nav-icon'} 
+                onClick={this.toggleClass}>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+						      	</div>
 						    </div>
 						    <Switch>
 						    	<Route exact path="/" component={Home}/>

@@ -27,6 +27,7 @@ export default class About extends Component {
 	            <img className="phaseone" src={phaseone} alt={"PhaseOne"}/>
 	            <img className="bell" src={bell} alt={"Bell"}/>
             </div>
+            <div className="dash"></div>
             <div className="cards">
 	        	<Paper style={style} className="card" zDepth={depth}>
 	        		<div className="title">
