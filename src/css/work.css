@@ -1,0 +1,57 @@
+.work {
+	display: flex;
+	flex-direction: row;
+}
+
+.work .projects .firstH5 {
+	margin-top: 0!important;
+}
+
+.work .projects .project h5 {
+	margin-top: 25px;
+}
+
+.work .icon {
+	transform: translate(-50%, -50%);
+	top: 50%;
+  	left: 50%;
+  	padding: 0;
+  	position: absolute!important;
+  	color: #428bca!important;
+}
+
+.work .icon:hover {
+	color: black!important;
+}
+
+.work .project a {
+	margin-top: -3px!important;
+}
+
+.work .project a:nth-of-type(2) {
+	margin-left: -25px!important;
+}
+
+.work .projects {
+	width: 75%;
+}
+
+.work .projects .project p {
+	width: 65%;
+	margin-left: 60px;
+}
+
+.work .skills {
+	width: 25%;
+}
+
+.work .skills .skill {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 30px;
+}
+
+.work .skills .skill p {
+	width: 35%;
+}

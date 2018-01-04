@@ -5,62 +5,86 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  color: whitesmoke;
-  /*background-color: #ECECEC;*/
-  padding: 3em 0 3em;
-  border-top: 1px solid #d3d3d3;
+  padding: 0.5em 0 1.5em;
+  background-color: #0B0F15;
 }
 
 .footer h3 {
-  color: whitesmoke;
+  color: lightgrey;
 }
 
 .footer ul {
 	list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .footer li{
 	display: inline;
+  margin: 10px;
 }
 
-.footer .fa-github, .footer .fa-linkedin, .footer .fa-envelope-o {
-	font-size: 3.5em;
-  padding: 1em 2em;
-  color: lightgray;
+.footer .icon {
+  font-size:40px!important;
+  color: lightgrey!important;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  padding: 0;
+  position: absolute!important;
 }
 
-.footer .fa-github:hover {
-  color: white;
+.footer .ion-social-github:hover {
+  color: #7dbbe6!important;
 }
 
-.footer .fa-linkedin:hover {
-  color: #007bb6;
+.footer .ion-social-linkedin:hover {
+  color: #007bb6!important;
 }
 
-.footer li:hover .fa-envelope-o:before {
-  content: "\f0e0";
-  color: white;
+.footer .ion-email:hover {
+  color: white!important;
 }
 
 .footer p {
   color: whitesmoke;
   margin-bottom: 2px;
   letter-spacing: 1px;
+  line-height: 20px
 }
 
-@media screen and (max-width: 800px) {
-  .footer .container {
-    max-width: 90%;
-    padding: 0;
-  }
-
-  .footer .fa-github, .footer .fa-linkedin, .footer .fa-envelope-o {
-    padding: 0.5em 0.7em;
-  }
-
-  .footer .dash {
-    margin: 2em auto 1em;
-  }
-
+.footer .iconSpan {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: top;
+  text-align:center;
+  color: red;
 }
+
+@keyframes beatHeart {
+  0% {
+    font-size: 14px;
+  }
+  20% {
+    font-size: 16px;
+  }
+  30% {
+    font-size: 14px;
+    opacity: 100%;
+  }
+  50% {
+    font-size: 16px;
+  }
+  60% {
+    font-size: 14px;
+  }
+  100% {
+    font-size: 14px;
+  }
+}
+
+.footer .ion-heart {
+  animation: 1.5s infinite beatHeart;
+}
+

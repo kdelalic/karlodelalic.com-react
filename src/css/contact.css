@@ -1,19 +1,25 @@
 .contact {
-  width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
-  color: gray;
-  background-color: whitesmoke;
-  padding: 6em 0 6em;
+  padding-top: 60px;
+  padding-bottom: 75px;
 }
 
-.contact .fa-paper-plane-o {
-  font-size: 4em;
-  margin-bottom: 1em;
-  color: lightgray;
+.contact .icon {
+  font-size: 30px;
+}
+
+.contact .ion-paper-airplane {
+  color: black;
+  font-size: 3em;
+  margin-bottom: 30px
+}
+
+.contact .ion-ios-email-outline, .contact .ion-document {
+  color: white;
 }
 
 .contact h3 {
@@ -24,33 +30,11 @@
 .contact h5 {
   text-transform: none;
   margin-bottom: 1.5em;
-  color: gray;
+  color: black;
 }
 
-.contact .container {
-  max-width: 30%;
-}
-
-.contact .btn {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.4em;
-  color: #6c6c6c;
-  border-color: lightgray;
-  font-weight: 300;
-}
-.contact .btn:hover {
-  color: lightgray;
-  background: gray;
-  border: 1px solid gray;
-  font-weight: 300;
-}
-
-.contact .resume {
-  margin-top: 2em;
-}
-
-.contact .fa-envelope-o, .contact .fa-file-pdf-o {
-  margin-left: 10px;
+.contact .dash {
+  margin: 50px auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -59,3 +43,46 @@
     padding: 0;
   }
 }
+
+@keyframes buttonHover {
+  0% {
+    font-size: 14px;
+  }
+  20% {
+    font-size: 16px;
+  }
+  30% {
+    font-size: 14px;
+    opacity: 100%;
+  }
+  50% {
+    font-size: 16px;
+  }
+  60% {
+    font-size: 14px;
+  }
+  100% {
+    font-size: 14px;
+  }
+}
+
+.raisedButton a{
+  background-color: #D24D57!important;  
+  -webkit-filter: blur(0);
+  -webkit-perspective: 1000;
+  box-shadow: 0 5px 25px 0 rgba(229, 16, 71, 0.33), inset 0 0 100px 0 rgba(255, 255, 255, 0), inset 0 0 3px 0 rgba(255, 255, 255, 0.5);
+}
+
+.raisedButton:hover {
+  transform: scale(1.1);
+  -webkit-perspective: 1000;
+}
+
+.raisedButton:hover a {
+  box-shadow: 0 10px 35px 0 rgba(229, 16, 71, .33), inset 0 0 100px 0 rgba(255, 255, 255, 0.2), inset 0 0 3px 0 rgba(255, 255, 255, 0.5);
+}
+
+.raisedButton:hover a div div {
+  background-color: rgba(255,255,255,0.0)!important;
+}
+

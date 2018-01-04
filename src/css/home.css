@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 175px;
+  padding-bottom: 175px;
+}
+
+.motto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  padding: 0 100px 20px;
+  color: #334661;
+  font-style: italic;
+}
+
+.learnMore {
+  margin-top: 50px;
+}
+
+.learnMore a {
+  background-color: #D24D57!important;  
+}
+
+.learnMore span {
+  color: black!important;
+  font-weight: 600!important;
+}
+
+.learnMore .icon {
+  font-size: 20px;
+  color: black;
+}
+
+.pulse-button {
+  position: relative;
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+  -webkit-animation: pulse 1.5s infinite;
+}
+.pulse-button:hover {
+  -webkit-animation: none;
+}
+
+@-webkit-keyframes pulse {
+  70% {
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}

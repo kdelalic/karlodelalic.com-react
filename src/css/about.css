@@ -1,0 +1,79 @@
+.about p {
+	font-size: 1.5em;
+	line-height: 1.7em;
+	margin: 0;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.about .places {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.delta {
+  width: auto;
+  height: 100px;
+}
+
+.phaseone {
+  width: auto;
+  height: 50px;
+}
+
+.bell {
+  width: auto;
+  height: 100px;
+}
+
+.about .small {
+	font-size: 1em!important;
+    letter-spacing: .25em!important;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card {
+  text-align: center;
+  padding: 40px;
+  width: 30%;
+  color:white!important;
+}
+
+.card .title i {
+  font-size: 50px;
+}
+
+.card .title h4 {
+  font-size: 1.5rem;
+}
+
+.card .dash {
+  border-color: white;
+}
+
+.card .description p {
+  font-size: 1.25em;
+  margin: .75em auto;
+}
+
+.card .description a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card .description a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
