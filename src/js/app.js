@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Route, NavLink, BrowserRouter, Switch} from "react-router-dom";
-import TransitionGroup from "react-transition-group/TransitionGroup";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Paper from 'material-ui/Paper';
 import IconButton from 'material-ui/IconButton';
@@ -14,14 +13,7 @@ import profile from '../img/profile.png'
 
 
 export default class App extends Component {
-
-	componentWillUpdate(nextProps, nextState) {
-
-	}
-
     render() {
-    	const { location } = window;
-    	console.log(location.pathname);
 	    return (
 		    <BrowserRouter>
 			    <div className="app">	

@@ -32,7 +32,7 @@ export default class Footer extends Component {
               <li><IconButton style={style} iconStyle={iconStyle} target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/kdelalic" iconClassName="icon ion-social-linkedin" /></li>
               <li><IconButton style={style} iconStyle={iconStyle} target="_blank" rel="noopener noreferrer" href="mailto:delalik@mcmaster.ca" iconClassName="icon ion-email" /></li>
             </ul>
-            <p>Karlo Delalic 2017</p>
+            <p>Karlo Delalic 2018</p>
             <p>Made with React, Ionicons, and lots of <span className="iconSpan"><i className="ion-heart"/></span></p>
         </MuiThemeProvider>
       </div>

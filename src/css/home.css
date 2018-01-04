@@ -20,18 +20,18 @@
   margin-top: 50px;
 }
 
-.learnMore a {
+.learnMore button{
   background-color: #D24D57!important;  
 }
 
 .learnMore span {
-  color: black!important;
+  color: white!important;
   font-weight: 600!important;
 }
 
 .learnMore .icon {
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 .pulse-button {

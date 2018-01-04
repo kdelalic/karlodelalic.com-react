@@ -14,8 +14,8 @@ export default class Home extends Component {
         <div className="home container">
         	<h1 className="motto">I make great things, and explore ways to push the barrier</h1>
         	<NavLink to="/about">
-	        	<RaisedButton style={style} className=" learnMore pulse-button"
-	            href="https://karlodelalic.com/resume/Karlo_Delalic_Resume.pdf"
+	        	<RaisedButton style={style} 
+	        	className="learnMore pulse-button"
 	            target="_blank"
 	            labelPosition="before"
 	            label="Learn About Me"

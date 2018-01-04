@@ -77,3 +77,24 @@
   color: #0056b3;
   text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 1200px) {
+  
+}
+@media (max-width: 1199px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+}
