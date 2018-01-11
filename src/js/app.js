@@ -37,7 +37,7 @@ export default class App extends Component {
 						      	<ul className="navBar">
 						      		<li><NavLink exact to="/">HOME</NavLink></li>
 						      		<li><NavLink to="/about">ABOUT</NavLink></li>
-						      		<li><img className="profile" src={profile} alt={"profilePic"}/></li>
+						      		<li><NavLink className="noBorder" exact to="/"><img className="profile" src={profile} alt={"profilePic"}/></NavLink></li>
 						      		<li><NavLink to="/work">WORK</NavLink></li>
 						      		<li><NavLink to="/contact">CONTACT</NavLink></li>
 						      	</ul>

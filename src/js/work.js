@@ -20,13 +20,18 @@ export default class Work extends Component {
       return (
         <div className="work container">
           	<div className="projects">
+              <div className="project">
+                  <h5 className="firstH5">Cryptofolio | ReactJS Web App<IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/cryptofolio" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://loving-morse-4f5653.netlify.com/" iconClassName="icon ion-link" /></h5>
+                  <p>Crypto-currency investment tracker portfolio. Made with ReactJS, Redux, Axios, Material UI, Firebase. (Under development)</p>
+              </div>
 	            <div className="project">
-	                <h5 className="firstH5">Shuffle | ReactJS Web App <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/shuffle" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://goofy-hawking-3c9875.netlify.com/" iconClassName="icon ion-link" /></h5>
-	                <p>A redevelopment of an open source YouTube shuffling app. Made using software engineering principles and design philosophy in mind.</p>
+	                <h5>Shuffle | ReactJS Web App <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/shuffle" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://goofy-hawking-3c9875.netlify.com/" iconClassName="icon ion-link" /></h5>
+	                <p>A redevelopment of an open source YouTube shuffling app. Made with ReactJS, YouTube API V3, Material UI.</p>
 	            </div>
 	            <div className="project">
 	                <h5>Piece Of Mind | Java EE Web App <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/PieceOfMind/" iconClassName="icon ion-social-github" /></h5>
-	                <p>An application built on Apache Tomcat that provides analytics of the attitudes of Twitter users as individuals and as a collective.</p>
+	                <p>An application built on Apache Tomcat that provides analytics of the attitudes of Twitter users as individuals and as a collective. Made with Java EE,
+Apache Tomcat, Twitter API</p>
 	            </div>
 	            <div className="project">
 	                <h5>Leo D Photography | Bootstrap Portfolio <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/leodphotography.com" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="http://leodphotography.com/" iconClassName="icon ion-link" /></h5>

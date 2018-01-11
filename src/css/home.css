@@ -13,6 +13,7 @@
   text-align: center;
   color: #334661;
   font-style: italic;
+  max-width: 1200px;
 }
 
 .learnMore {
@@ -48,5 +49,26 @@
   }
   100% {
     box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
+
+@media (min-width: 600px) {
+  .motto {
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px) {
+  .motto {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1200px) {
+  .motto {
+    max-width: 992px;
+  }
+}
+@media (min-width: 1300px) {
+  .motto {
+    max-width: 1200px;
   }
 }

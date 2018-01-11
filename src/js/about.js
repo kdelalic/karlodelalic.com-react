@@ -17,7 +17,7 @@ export default class About extends Component {
       return (
         <div className="about container">
         	<p>My name is Karlo.</p>
-            <p>I'm an undergraduate student at McMaster University pursuing my degree in Software Engineering.</p>
+            <p>I'm a third year undergraduate student at McMaster University pursuing my degree in Software Engineering.</p>
             <p>I participate in hackathons and online coding challenges such as HackerRank, make small projects, and hack random stuff.</p>
             <p>I enjoy exploring ways to better myself everyday. I like programming, building things and during my down time I like to unwind by playing video games.</p>
             <div className="dash"></div>

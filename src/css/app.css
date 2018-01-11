@@ -243,6 +243,10 @@ p {
   transition: all 0.3s ease-in-out 0s;
 }
 
+.noBorder:before {
+  visibility: hidden!important;
+}
+
 .navBar li a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
