@@ -72,7 +72,7 @@ p {
 .app {
   padding: 40px;
   height: auto;
-  position: absolute;
+  position: relative;
   display: block;
   bottom: 0;
   top: 0;
@@ -109,12 +109,15 @@ p {
   visibility: hidden;
   border: 2px solid black;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  /*width: 50px;
+  height: 50px;*/
+  width: 45px;
+  height: 45px;
   position: absolute;
   right: 0;
   top:50%;
-  margin-right: 20px;
+  /*margin-right: 20px;*/
+  margin-right: 40px;
   z-index: 2;
 }
 @media (max-width: 700px) {
@@ -126,6 +129,11 @@ p {
   }
   .hamburger {
     visibility: visible;
+  }
+}
+@media (min-width: 701px) {
+  .open {
+    visibility: hidden!important;
   }
 }
 @media (min-width: 768px) {
@@ -290,10 +298,11 @@ p {
 .nav-icon span {
   display: block;
   position: absolute;
-  height: 5px;
+  /*height: 5px;*/
+  height: 3px;
   width: 100%;
   background: black;
-  border-radius: 9px;
+  /*border-radius: 9px;*/
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
