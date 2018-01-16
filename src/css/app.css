@@ -388,3 +388,8 @@ p {
   visibility: visible;
   border-color: white;
 }
+
+.NoMatch {
+  text-align: center;
+  padding: 165px 0;
+}

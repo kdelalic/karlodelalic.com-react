@@ -67,7 +67,8 @@ export default class App extends Component {
 						    	<Route exact path="/" component={Home}/>
 				            	<Route path="/about" component={About}/>
 				            	<Route path="/work" component={Work}/>
-				            	<Route path="/contact" component={Contact}/>
+								<Route path="/contact" component={Contact}/>
+								<Route component={NoMatch}/>
 				            </Switch>
 						    <Footer/>
 					    </Paper>
@@ -77,3 +78,9 @@ export default class App extends Component {
 	    );
   	}
 }
+
+const NoMatch = () => (
+	<div className=" NoMatch container">
+	  <h1>404 - Page not found</h1>
+	</div>
+)
