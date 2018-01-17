@@ -49,14 +49,22 @@
   padding: 40px;
   width: 30%;
   color:white!important;
+  background: rgb(30,87,153);
+  background: -moz-linear-gradient(45deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%);
+  background: linear-gradient(45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
 }
 
 .card .title i {
   font-size: 50px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  color: #c5dff7;
 }
 
 .card .title h4 {
   font-size: 1.5rem;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2)
 }
 
 .card .dash {
@@ -69,19 +77,13 @@
 }
 
 .card .description a {
-  color: #007bff;
+  color: orange;
   text-decoration: none;
 }
 
 .card .description a:hover {
-  color: #0056b3;
+  color: orange;
   text-decoration: underline;
-}
-
-@media (min-width: 768px) {
-  
-}
-@media (min-width: 992px) {
 }
 @media (max-width: 991px) {
   .about .places {
@@ -93,9 +95,6 @@
   .bell {
   	margin-bottom: 20px!important;
   }
-}
-@media (min-width: 1200px) {
-  
 }
 @media (max-width: 1199px) {
   .cards {

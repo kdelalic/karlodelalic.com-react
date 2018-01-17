@@ -22,11 +22,11 @@ export default class Work extends Component {
           	<div className="projects">
               <div className="project">
                   <h5 className="firstH5">Cryptofolio | ReactJS Web App<IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/cryptofolio" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://loving-morse-4f5653.netlify.com/" iconClassName="icon ion-link" /></h5>
-                  <p>Crypto-currency investment tracker portfolio. Made with ReactJS, Redux, Axios, Material UI, Firebase. (Under development)</p>
+                  <p>Crypto-currency investment tracker portfolio. Made with ReactJS, Socket.io, Axios, Firebase, Material Design. (Under development)</p>
               </div>
 	            <div className="project">
 	                <h5>Shuffle | ReactJS Web App <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/shuffle" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://goofy-hawking-3c9875.netlify.com/" iconClassName="icon ion-link" /></h5>
-	                <p>A redevelopment of an open source YouTube shuffling app. Made with ReactJS, YouTube API V3, Material UI.</p>
+	                <p>A redevelopment of an open source YouTube shuffling app. Made with ReactJS, YouTube API V3, Material Design.</p>
 	            </div>
 	            <div className="project">
 	                <h5>Piece Of Mind | Java EE Web App <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/PieceOfMind/" iconClassName="icon ion-social-github" /></h5>

@@ -6,7 +6,12 @@
   flex-direction: column;
   position: relative;
   padding: 0.5em 0 1.5em;
-  background-color: #0B0F15;
+  background: rgb(30,87,153);
+  background: -moz-linear-gradient(45deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%);
+  background: linear-gradient(45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  border-radius: 0 0 4px 4px
 }
 
 .footer h3 {
@@ -26,7 +31,7 @@
 
 .footer .icon {
   font-size:40px!important;
-  color: lightgrey!important;
+  color: white!important;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -43,11 +48,11 @@
 }
 
 .footer .ion-email:hover {
-  color: white!important;
+  color: lightgray!important;
 }
 
 .footer p {
-  color: whitesmoke;
+  color: white;
   margin-bottom: 2px;
   letter-spacing: 1px;
   line-height: 20px
