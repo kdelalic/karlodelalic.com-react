@@ -25,7 +25,7 @@ export default class Work extends Component {
                   <p>Chrome new tab extension which displays latest crypto-currency news and updates from various sources. Made with ReactJS, NodeJS, Material UI, Firebase. (Under development)</p>
               </div>
               <div className="project">
-                  <h5 className="firstH5">Cryptofolio | ReactJS Web App<IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/cryptofolio" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://loving-morse-4f5653.netlify.com/" iconClassName="icon ion-link" /></h5>
+                  <h5>Cryptofolio | ReactJS Web App<IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/cryptofolio" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://loving-morse-4f5653.netlify.com/" iconClassName="icon ion-link" /></h5>
                   <p>Crypto-currency investment tracker portfolio. Made with ReactJS, Socket.io, Axios, Firebase, Material Design.</p>
               </div>
 	            <div className="project">
