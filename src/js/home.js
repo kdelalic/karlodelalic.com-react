@@ -12,7 +12,7 @@ export default class Home extends Component {
     render() {
       return (
         <div className="home container">
-        	<h1 className="motto">I design and develop awesome solutions for various types of problems.</h1>
+        	<h1 className="motto">I DESIGN AND DEVELOP AWESOME SOLUTIONS FOR CHALLENGING PROBLEMS.</h1>
         	<NavLink to="/about">
 	        	<RaisedButton style={style} 
 	        	className="learnMore pulse-button"
