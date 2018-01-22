@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "../css/about.css";
 import delta from '../img/delta.png'
 import phaseone from '../img/phaseone.png'
-import bell from '../img/bell.png'
+import gopher from '../img/gopher.png'
 import Paper from 'material-ui/Paper';
 
 const style = {
@@ -22,10 +22,16 @@ export default class About extends Component {
             <p>I enjoy exploring ways to better myself everyday. I like programming, building things and during my down time I like to unwind by playing video games.</p>
             <div className="dash"></div>
             <p className="small">Places I've worked at:</p>
-            <div className="places">
-	            <img className="delta" src={delta} alt={"Delta Aluminum"}/>
-	            <img className="phaseone" src={phaseone} alt={"PhaseOne"}/>
-	            <img className="bell" src={bell} alt={"Bell"}/>
+			<div className="places">
+				<div className="imgDiv">
+					<img className="bell" src={gopher} alt={"Gopher Labs"}/>
+				</div>
+				<div className="imgDiv">
+					<img className="phaseone" src={phaseone} alt={"PhaseOne"}/>
+				</div>
+				<div className="imgDiv">
+					<img className="delta" src={delta} alt={"Delta Aluminum"}/>
+				</div>
             </div>
             <div className="dash"></div>
             <div className="cards">
