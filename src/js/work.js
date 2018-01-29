@@ -23,7 +23,7 @@ export default class Work extends Component {
               <div className="project">
                   <h5 className="firstH5">Kiosk | Chrome Extension</h5>
                   <p>Chrome new tab extension which displays latest crypto-currency news and updates from various sources. Made with ReactJS, Redux, NodeJS, Material UI, Firebase.</p>
-                  <p>DeltaHacks 2018 Winner (Best Use of Web Tech)</p>
+                  <p>DeltaHacks IV Winner (Best Use of Web Tech)</p>
               </div>
               <div className="project">
                   <h5>Cryptofolio | ReactJS Web App<IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/cryptofolio" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://loving-morse-4f5653.netlify.com/" iconClassName="icon ion-link" /></h5>
@@ -62,7 +62,15 @@ Apache Tomcat, Twitter API</p>
                 </div>
                 <div className="skill">
                   <p>ReactJS</p>
-                  <LinearProgress color={color} style={style} mode="determinate" value={63} />
+                  <LinearProgress color={color} style={style} mode="determinate" value={80} />
+                </div>
+                <div className="skill">
+                  <p>Redux</p>
+                  <LinearProgress color={color} style={style} mode="determinate" value={43} />
+                </div>
+                <div className="skill">
+                  <p>Socket.io</p>
+                  <LinearProgress color={color} style={style} mode="determinate" value={87} />
                 </div>
                 <div className="skill">
                   <p>AngularJS</p>
@@ -72,10 +80,10 @@ Apache Tomcat, Twitter API</p>
                   <p>NodeJS</p>
                   <LinearProgress color={color} style={style} mode="determinate" value={35} />
                 </div>
-		        <div className="skill">
-		            <p>Java</p>
-		            <LinearProgress color={color} style={style} mode="determinate" value={90} />
-		        </div>
+                <div className="skill">
+                    <p>Java</p>
+                    <LinearProgress color={color} style={style} mode="determinate" value={90} />
+                </div>
                 <div className="skill">
                   <p>Python</p>
                   <LinearProgress color={color} style={style} mode="determinate" value={70} />
@@ -87,6 +95,10 @@ Apache Tomcat, Twitter API</p>
                 <div className="skill">
                   <p>SQL</p>
                   <LinearProgress color={color} style={style} mode="determinate" value={50} />
+                </div>
+                <div className="skill">
+                  <p>Firebase</p>
+                  <LinearProgress color={color} style={style} mode="determinate" value={82} />
                 </div>
                 <div className="skill">
                   <p>NASM</p>
