@@ -21,8 +21,9 @@ export default class Work extends Component {
         <div className="work container">
             <div className="projects">
               <div className="project">
-                  <h5 className="firstH5">Cryptonews | Chrome Extension</h5>
-                  <p>Chrome new tab extension which displays latest crypto-currency news and updates from various sources. Made with ReactJS, NodeJS, Material UI, Firebase. (Under development)</p>
+                  <h5 className="firstH5">Kiosk | Chrome Extension</h5>
+                  <p>Chrome new tab extension which displays latest crypto-currency news and updates from various sources. Made with ReactJS, Redux, NodeJS, Material UI, Firebase.</p>
+                  <p>DeltaHacks 2018 Winner (Best Use of Web Tech)</p>
               </div>
               <div className="project">
                   <h5>Cryptofolio | ReactJS Web App<IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/cryptofolio" iconClassName="icon ion-social-github" /> <IconButton style={styleIcon} target="_blank" rel="noopener noreferrer" href="https://loving-morse-4f5653.netlify.com/" iconClassName="icon ion-link" /></h5>
