@@ -19,7 +19,7 @@ export default class Contact extends Component {
           <div className="dash"></div>
           <h3>Here's my RESUMÉ</h3>
           <RaisedButton className="raisedButton"
-            href="https://drive.google.com/open?id=1OjHFmSraRutZExOPxcjrfqFYmVMIhGB_"
+            href="https://drive.google.com/open?id=1ZQahZ6yF3k-IZ_ACJx8gJFZo-SQntwz3"
             target="_blank"
             label="Resumé"
             primary={true}
