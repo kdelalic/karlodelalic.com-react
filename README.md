@@ -1,2 +1,2 @@
 Personal Website created with ReactJS
-[https://karlodelalic.com/](https://karlodelalic.com/)
+[https://karlocod.es/](https://karlocod.es/)
