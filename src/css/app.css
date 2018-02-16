@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -222,7 +222,7 @@ p {
   font-size: 1.3em;
   letter-spacing: .2em;
   font-weight: 400;
-  font-family: Open Sans,sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .navBar li a {
