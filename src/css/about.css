@@ -21,17 +21,17 @@
   justify-content: center;
 }
 
-.delta {
-  width: auto;
-  height: 100px;
-}
-
-.phaseone {
+.right {
   width: auto;
   height: 50px;
 }
 
-.bell {
+.middle {
+  width: auto;
+  height: 100px;
+}
+
+.left {
   width: auto;
   height: 100px;
 }

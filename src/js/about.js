@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../css/about.css";
-import delta from '../img/delta.png'
+import ibm from '../img/ibm.png'
 import phaseone from '../img/phaseone.png'
 import gopher from '../img/gopher.png'
 import Paper from 'material-ui/Paper';
@@ -24,13 +24,19 @@ export default class About extends Component {
             <p className="small">Places I've worked at:</p>
 			<div className="places">
 				<div className="imgDiv">
-					<img className="bell" src={gopher} alt={"Gopher Labs"}/>
+					<a href="https://www.gopher.it/" target="_blank">
+						<img className="left" src={gopher} alt={"Gopher Labs"}/>
+					</a>
 				</div>
 				<div className="imgDiv">
-					<img className="phaseone" src={phaseone} alt={"PhaseOne"}/>
+					<a href="https://www.ibm.com/" target="_blank">
+						<img className="middle" src={ibm} alt={"IBM"}/>
+					</a>
 				</div>
 				<div className="imgDiv">
-					<img className="delta" src={delta} alt={"Delta Aluminum"}/>
+					<a href="http://www.phaseone.io/" target="_blank">
+						<img className="right" src={phaseone} alt={"PhaseOne"}/>
+					</a>
 				</div>
             </div>
             <div className="dash"></div>
