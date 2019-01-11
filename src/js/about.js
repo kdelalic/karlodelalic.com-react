@@ -24,17 +24,17 @@ export default class About extends Component {
             <p className="small">Places I've worked at:</p>
 			<div className="places">
 				<div className="imgDiv">
-					<a href="https://www.gopher.it/" target="_blank">
+					<a href="https://www.gopher.it/" target="_blank" rel="noopener noreferrer">
 						<img className="left" src={gopher} alt={"Gopher Labs"}/>
 					</a>
 				</div>
 				<div className="imgDiv">
-					<a href="https://www.ibm.com/" target="_blank">
+					<a href="https://www.ibm.com/" target="_blank" rel="noopener noreferrer">
 						<img className="middle" src={ibm} alt={"IBM"}/>
 					</a>
 				</div>
 				<div className="imgDiv">
-					<a href="http://www.phaseone.io/" target="_blank">
+					<a href="http://www.phaseone.io/" target="_blank" rel="noopener noreferrer">
 						<img className="right" src={phaseone} alt={"PhaseOne"}/>
 					</a>
 				</div>
