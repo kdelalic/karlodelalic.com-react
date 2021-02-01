@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "animated": "0.2.2",
-    "bulma": "0.6.2",
+    "bulma": "0.9.2",
     "font-awesome": "4.7.0",
     "fontawesome": "4.7.2",
     "material-ui": "0.20.2",
